@@ -1,0 +1,32 @@
+name: accurate_storage_info
+description: Accurate disk storage info for iOS and Android (bytes)
+version: 0.1.0
+homepage: https://github.com/nvtanhh/accurate_storage_info
+repository: https://github.com/nvtanhh/accurate_storage_info
+
+environment:
+  sdk: ^3.9.2
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: dev.tanh.accurate_storage_info
+        pluginClass: StorageInfoPlugin
+      ios:
+        pluginClass: StorageInfoPlugin
