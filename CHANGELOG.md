@@ -1,3 +1,7 @@
+## 0.1.1
+
+- Android: Align Java source/target and Kotlin jvmTarget to 17 to match Kotlin 17 toolchains.
+
 ## 0.1.0
 
 - Initial release.
